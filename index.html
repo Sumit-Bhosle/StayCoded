@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Sumit Bhosle</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+       emailjs.init("TuDLhvozDSuvn2eSR");  // Replace with your actual public key
+    })();
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+  <!-- Header Section with Typing Animation -->
+  <header>
+    
+    <div class="header-container">
+      <div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        <br>
+        </nav>
+      </div>
+      <img src="images/myphoto.jpg" alt="SB" class="profile-photo">
+      <div>
+        <h1> Welcome to My Portfolio</h1>
+      </div>
+      <div>
+        <h1 id="animated-text"></h1>
+      </div>
+      
+    </div>
+      
+
+  </header>
+
+  <!-- Main Content -->
+  <section id="home">
+    <h2>Home</h2>
+    <p>Welcome to my professional portfolio! Here, you can explore my skills, projects, and contact details.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate developer skilled in front-end and back-end technologies, dedicated to creating real-world applications.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <a><h3>Project 1: eCommerce Website</h3>
+      <p>An online shopping platform with user authentication and payment gateway integration.</p></a>
+    </div>
+    <div class="project">
+      <a><h3>Project 2: Event Management CRM</h3>
+      <p>A platform to streamline event planning and management processes for organizations.</p></a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Floating Back to Top Button -->
+  <button id="backToTopBtn" title="Go to top"><img src="assets/arrow-up.png" alt="↑"></button>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 My Portfolio. Designed with ❤️ by SUMIT BHOSLE</p>
+  </footer>
+
+  <!-- Javascript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
